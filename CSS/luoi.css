@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+*{box-sizing: border-box}
+.container{
+	width: 80%; margin: 0 auto
+}
+.img-100{
+	width: 100%; height: auto
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+float: left;
+padding: 15px;
+}
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+.d-flex{
+	display: flex
+}
+.justyfy-aroud{
+	justify-content: space-around
+}
+.justify-between{
+	justify-content: space-between
+}
+.justify-center{
+	justify-content: center
+}
+.allign-item-center{
+	align-items: center
+}
+.main-footer {
+  background-color: #f8f8f8;
+  padding: 40px 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-col h4 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-col ul li a:hover {
+  text-decoration: underline;
+}
+
+.company-info p {
+  margin: 6px 0;
+  line-height: 1.5;
+}
+
+.social-icons a img {
+  width: 20px;
+  margin-right: 10px;
+  opacity: 0.8;
+}
+
+.qr-img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.app-links img {
+  width: 120px;
+  margin: 5px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px solid #ddd;
+  font-size: 13px;
+}
